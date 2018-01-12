@@ -19,9 +19,11 @@ rake db:create
 rake db:migrate
 rails server
 ```
-Se preferir, também pode ser iniciado através do [Docker](https://www.docker.com/), basta entrar na pasta do projeto e executar o seguinte comando:
+Se preferir, também pode ser iniciado através do [Docker](https://www.docker.com/), basta entrar na pasta do projeto e executar o seguintes comandos:
 ```bash
-docker-compose up --build
+docker-compose build
+docker-compose run --rm website rails db:create
+docker-compose up
 ```
 
 # Como testar?
