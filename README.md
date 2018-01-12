@@ -1,4 +1,5 @@
 
+[ ![Codeship Status for Brunomm/bt4-currency-exchange](https://app.codeship.com/projects/55dd1880-d867-0135-02c6-264472c9db29/status?branch=master)](https://app.codeship.com/projects/263649)
 # Currency Exchange
 
 
